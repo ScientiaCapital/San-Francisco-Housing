@@ -1,5 +1,7 @@
 # San Francisco Housing
 
+![San Francisco Housing](images/2021_image.jpg)
+
 In this challenge, your job is to use your data visualization superpowers, including aggregation, interactive visualizations, and geospatial analysis, to find properties in the San Francisco market that are viable investment opportunities.
 
 Instructions:  Use the san_francisco_housing.ipynb notebook to visualize and analyze the real-estate data.
@@ -15,8 +17,6 @@ The main task in this Challenge is to visualize and analyze the real-estate data
      - Compare the average prices by neighborhood.
      - Build an interactive neighborhood map.
      - Compose your data story.
-     
-![San Francisco Housing](images/2021_image.jpg)
 
 ---
 
