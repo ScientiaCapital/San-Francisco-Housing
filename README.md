@@ -1,7 +1,5 @@
 # San Francisco Housing
 
-![San Francisco Housing](./images/2021_image.jpg)
-
 In this challenge, your job is to use your data visualization superpowers, including aggregation, interactive visualizations, and geospatial analysis, to find properties in the San Francisco market that are viable investment opportunities.
 
 Instructions:  Use the san_francisco_housing.ipynb notebook to visualize and analyze the real-estate data.
@@ -17,6 +15,9 @@ The main task in this Challenge is to visualize and analyze the real-estate data
      - Compare the average prices by neighborhood.
      - Build an interactive neighborhood map.
      - Compose your data story.
+     
+![San Francisco Housing](images/2021_image.jpg)
+
 ---
 
 ## Technologies
@@ -40,7 +41,7 @@ pip install pandas
 pip install plotly
 pip install hvplot
 
----
+```
 
 ## Usage
 
@@ -48,7 +49,7 @@ pip install hvplot
 
 2. Open _Jupyter Lab_ or _Jupyter Notebook_ via _Anaconda Navigator_ and navigate to the directory in which the file `san_francisco_housing.ipynb` is present. _All relevant code for this repository will be executed via Jupyter Notebook and no output will be printed to the command line_. Ensure that all relevant dependencies and _Python_ modules are installed (see __Technologies__ and __Installation Guide__ for more details) before attempting to execute code within _Jupyter Notebook_; otherwise, you will receive multiple interpreter errors! 
 
-3. With the notebook open, start at the very first cell reading "__Analyzing Portfolio Risk and Return__" (a cell will be active when a rectangular border is surrounding the area in question). Run each cell in sequential order. _It is vital that all cells are ran in sequential order or your notebook will generate compiler errors_!. 
+3. With the notebook open, start at the very first cell reading "Import the required libraries and dependencies" (a cell will be active when a rectangular border is surrounding the area in question). Run each cell in sequential order. _It is vital that all cells are ran in sequential order or your notebook will generate compiler errors_!. 
 
 ---
 
