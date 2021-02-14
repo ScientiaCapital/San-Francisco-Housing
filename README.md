@@ -1,4 +1,4 @@
-# San Francisco Housing
+# San Francisco Housing Rental Analysis
 ![San Francisco Housing](./images/2021_image.jpg)
 
 In this challenge, your job is to use your data visualization superpowers, including aggregation, interactive visualizations, and geospatial analysis, to find properties in the San Francisco market that are viable investment opportunities.
