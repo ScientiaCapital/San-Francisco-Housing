@@ -1,5 +1,6 @@
 # San Francisco Housing
-[San Francisco Housing](./images/2021_image.jpg)
+
+![San Francisco Housing](./images/2021_image.jpg)
 
 In this challenge, your job is to use your data visualization superpowers, including aggregation, interactive visualizations, and geospatial analysis, to find properties in the San Francisco market that are viable investment opportunities.
 
@@ -23,11 +24,9 @@ The main task in this Challenge is to visualize and analyze the real-estate data
 
 Before attempting to execute any _Python_ code in `san_francisco_housing.ipynb`, it is imperative that your development environment holds the following modules:
 
-pandas [pandas](https://pandas.pydata.org/pandas-docs/stable/) - Data analysis module.
-
-plotly.express [plotly.express](https://plotly.com/python/plotly-express/) - Graphing Libraries
-
-hvplot [hvplot](https://hvplot.holoviz.org/getting_started/index.html) - High-level plotting API for PyData ecosystem built on HoloViews
+[pandas](https://pandas.pydata.org/pandas-docs/stable/) - Data analysis module.
+[plotly.express](https://plotly.com/python/plotly-express/) - Graphing Libraries
+[hvplot](https://hvplot.holoviz.org/getting_started/index.html) - High-level plotting API for PyData ecosystem built on HoloViews
 
 ---
 
@@ -38,19 +37,8 @@ With your _Python 3.7+_ environment, run the following commands via CLI:
 ```
 
 pip install pandas
-
 pip install plotly
-
 pip install hvplot
-
-
-```
-
----
-
-## Examples
-
-
 
 ---
 
