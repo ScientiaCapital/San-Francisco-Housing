@@ -1,6 +1,6 @@
 # San Francisco Housing
 
-![San Francisco Housing](images/2021_image.jpg)
+![San Francisco Housing](https://github.com/ScientiaCapital/San-Francisco-Housing-Rental-Analysis/blob/main/Images/2021_image.jpg)
 
 In this challenge, your job is to use your data visualization superpowers, including aggregation, interactive visualizations, and geospatial analysis, to find properties in the San Francisco market that are viable investment opportunities.
 
