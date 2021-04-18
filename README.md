@@ -23,11 +23,19 @@ The main task in this Challenge is to visualize and analyze the real-estate data
 ## Technologies
 
 
-Before attempting to execute any _Python_ code in `san_francisco_housing.ipynb`, it is imperative that your development environment holds the following modules:
+Before attempting to execute any Python code in san_francisco_housing.ipynb, it is imperative that your development environment holds the following modules:
 
-[pandas](https://pandas.pydata.org/pandas-docs/stable/) - Data analysis module.
-[plotly.express](https://plotly.com/python/plotly-express/) - Graphing Libraries
-[hvplot](https://hvplot.holoviz.org/getting_started/index.html) - High-level plotting API for PyData ecosystem built on HoloViews
+os - Miscellaneous operating system interfaces.
+
+pandas - Data analysis module.
+
+plotly - Interactive plotting module.
+
+hvplot - High-level plotting API.
+
+pathlib - Object-oriented filesystem path library.
+
+dotenv - .env file parser module.
 
 ---
 
@@ -36,12 +44,16 @@ Before attempting to execute any _Python_ code in `san_francisco_housing.ipynb`,
 With your _Python 3.7+_ environment, run the following commands via CLI:
 
 ```
-
-pip install pandas
-pip install plotly
-pip install hvplot
-
+import os
+import pandas as pd
+import plotly.express as px
+import hvplot.pandas
+from pathlib import Path
+from dotenv import load_dotenv
 ```
+
+## Examples
+
 
 ## Usage
 
