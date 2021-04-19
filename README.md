@@ -1,33 +1,23 @@
-# San Francisco Housing
+# San Francisco Housing Rental Analysis
 
 ![San Francisco Housing](https://github.com/ScientiaCapital/San-Francisco-Housing-Rental-Analysis/blob/main/Images/2021_image.jpg)
-
-In this challenge, your job is to use your data visualization superpowers, including aggregation, interactive visualizations, and geospatial analysis, to find properties in the San Francisco market that are viable investment opportunities.
-
-Instructions:  Use the san_francisco_housing.ipynb notebook to visualize and analyze the real-estate data.
-
-Note that this assignment requires you to create a visualization by using the integration between Plotly and the Mapbox API. Be sure to create your environment file (.env) and include your Mapbox API access token. Then import your Mapbox API access token into the san_francisco_housing.ipynb notebook, and set it by using the px.set_mapbox_access_token function.
-
-Additionally, you need to read the sfo_neighborhoods_census_data.csv file from the Resources folder into the notebook and create the DataFrame that you’ll use in the analysis.
-
-The main task in this Challenge is to visualize and analyze the real-estate data in your Jupyter notebook. Use the san_francisco_housing.ipynb notebook to complete the following tasks:
-
-     - Calculate and plot the housing units per year.
-     - Calculate and plot the average prices per square foot.
-     - Compare the average prices by neighborhood.
-     - Build an interactive neighborhood map.
-     - Compose your data story.
-
----
 
 ## Technologies
 
 
-Before attempting to execute any _Python_ code in `san_francisco_housing.ipynb`, it is imperative that your development environment holds the following modules:
+Before attempting to execute any Python code in san_francisco_housing.ipynb, it is imperative that your development environment holds the following modules:
 
-[pandas](https://pandas.pydata.org/pandas-docs/stable/) - Data analysis module.
-[plotly.express](https://plotly.com/python/plotly-express/) - Graphing Libraries
-[hvplot](https://hvplot.holoviz.org/getting_started/index.html) - High-level plotting API for PyData ecosystem built on HoloViews
+os - Miscellaneous operating system interfaces.
+
+pandas - Data analysis module.
+
+plotly - Interactive plotting module.
+
+hvplot - High-level plotting API.
+
+pathlib - Object-oriented filesystem path library.
+
+dotenv - .env file parser module.
 
 ---
 
@@ -36,12 +26,16 @@ Before attempting to execute any _Python_ code in `san_francisco_housing.ipynb`,
 With your _Python 3.7+_ environment, run the following commands via CLI:
 
 ```
-
-pip install pandas
-pip install plotly
-pip install hvplot
-
+import os
+import pandas as pd
+import plotly.express as px
+import hvplot.pandas
+from pathlib import Path
+from dotenv import load_dotenv
 ```
+
+## Examples
+
 
 ## Usage
 
