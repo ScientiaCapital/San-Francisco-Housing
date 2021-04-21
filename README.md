@@ -7,17 +7,17 @@
 
 Before attempting to execute any Python code in san_francisco_housing.ipynb, it is imperative that your development environment holds the following modules:
 
-![os](https://docs.python.org/3/library/os.html) - Miscellaneous operating system interfaces.
+[os](https://docs.python.org/3/library/os.html) - Miscellaneous operating system interfaces.
 
-![pandas](https://pandas.pydata.org/pandas-docs/stable/) - Data analysis module.
+[pandas](https://pandas.pydata.org/pandas-docs/stable/) - Data analysis module.
 
-![plotly](https://plotly.com/python/) - Interactive plotting module.
+[plotly](https://plotly.com/python/) - Interactive plotting module.
 
-![hvplot](https://hvplot.holoviz.org/) - High-level plotting API.
+[hvplot](https://hvplot.holoviz.org/) - High-level plotting API.
 
-![pathlib](https://docs.python.org/3/library/pathlib.html) - Object-oriented filesystem path library.
+[pathlib](https://docs.python.org/3/library/pathlib.html) - Object-oriented filesystem path library.
 
-![dotenv](https://pypi.org/project/python-dotenv/) - .env file parser module.
+[dotenv](https://pypi.org/project/python-dotenv/) - .env file parser module.
 
 ---
 
